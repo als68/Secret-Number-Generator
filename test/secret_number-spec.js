@@ -18,6 +18,7 @@ describe('Secret Number', function() {
   });
 
   it('should return a different random number by different generators', function() {
+    console.log(secretNumberGenerator()());
     var generatedNumber1 = secretNumberGenerator()();
     var generatedNumber2 = secretNumberGenerator()();
     var generatedNumber3 = secretNumberGenerator()();
